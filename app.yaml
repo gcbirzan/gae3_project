@@ -1,0 +1,3 @@
+runtime: python37
+entrypoint: gunicorn -b :$PORT gae3_project.wsgi -w4
+instance_class: F4
